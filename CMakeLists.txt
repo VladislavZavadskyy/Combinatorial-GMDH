@@ -14,7 +14,6 @@ set(
 
 # Specify include directories
 include_directories(
-    include
      /opt/intel/mkl/include
     )
 
@@ -27,16 +26,16 @@ link_directories(
 # Specify target & source files to compile it from
 cuda_add_executable(
     app
-    include/dependencies.cuh
-    include/ops.cuh
-    include/utils.cuh
-    include/matrix.cuh
-    include/tests.cuh
-    src/ops.cu
-    src/matrix.cu
-    src/utils.cu
-    src/tests.cu
-    src/main.cu
+    dependencies.cuh
+    ops.cuh
+    utils.cuh
+    matrix.cuh
+    tests.cuh
+    ops.cu
+    matrix.cu
+    utils.cu
+    tests.cu
+    main.cu
     )
 
 target_link_libraries(
