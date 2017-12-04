@@ -6,4 +6,4 @@ Takes csv files on input, specify paths to them as follows `x <path to x.csv> y 
 CPU mode also supports `verbose` setting, which, if enabled, will produce detailed output about each candidate-model.
 Number of threads is specified by `nt`. 
 
-Tested on Windows, built with Visual Studio, CMakeLists serves as decoration, mainly, but it's possible that it works :)
+Tested on Windows, built with Visual Studio, CMakeLists serves as decoration, mainly, but it's not completely impossible that it works.
